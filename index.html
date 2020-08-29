@@ -70,7 +70,8 @@
 							if (mail==="" || pass==="") {
 								alert("Email o Contraseña Incorrectos");
 							}else{
-								location.href="principal.html"
+								localStorage.setItem("email", mail);
+								location.href="principal.html";
 							}
 						}
 					</script>
